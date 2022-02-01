@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3c051b43-cfce-4028-886d-082eb0ff7646": {
+      "ProjectGuid": "3c051b43-cfce-4028-886d-082eb0ff7646",
+      "DisplayName": "Receipt Generator",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

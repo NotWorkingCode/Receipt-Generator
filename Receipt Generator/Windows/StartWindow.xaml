@@ -1,0 +1,29 @@
+﻿<Window x:Class="Receipt_Generator.Windows.StartWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Receipt_Generator.Windows"
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen" ResizeMode="NoResize"
+        Title="Проверка компонентов системы" Height="200" Width="500">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="3*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Name="Status" Grid.Row="1"
+                   VerticalAlignment="Center" Margin="15, 0, 15, 0"/>
+        
+        <ProgressBar x:Name="Progress" Grid.Row="2"
+                     VerticalAlignment="Center" Margin="15, 0, 15, 0"
+                     Minimum="0" Maximum="7"/>
+
+        <Button x:Name="NextStep" Grid.Row="3"
+                VerticalAlignment="Center" HorizontalAlignment="Right"
+                Margin="15, 0, 15, 0" Padding="7, 3, 7 ,3"
+                Content="Продолжить" IsEnabled="False" Click="NextStep_Click"/>
+    </Grid>
+</Window>

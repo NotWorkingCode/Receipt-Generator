@@ -1,0 +1,87 @@
+﻿<Window x:Class="Receipt_Generator.Windows.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Receipt_Generator.Windows"
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen" ResizeMode="NoResize"
+        Title="Генерация квитанции" Height="350" Width="600">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="4*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"
+               VerticalAlignment="Center" Margin="15, 0, 15, 0"
+               Text="Дата и время как на квитанции:"/>
+
+        <Button Grid.Row="0" Grid.Column="1" x:Name="UpdateDate"
+                VerticalAlignment="Center" HorizontalAlignment="Right"
+                Content="" Height="18" Width="18" Margin="0, 0, 15, 0" Click="UpdateDate_Click"/>
+
+        <TextBox Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" x:Name="InputDate"
+                   VerticalAlignment="Center" Margin="15, 0, 15, 0"
+                   Text="00.00.0000 00:00"/>
+
+        <TextBlock Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"
+                   VerticalAlignment="Center" Margin="15, 0, 15, 0"
+                   Text="Назначение платежа:"/>
+
+        <TextBox Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" x:Name="InputPurpose"
+                   VerticalAlignment="Center" Margin="15, 0, 15, 0"
+                   Text="За справку ГКУ ГАСДНО"/>
+
+        <TextBlock Grid.Row="2" Grid.Column="0"
+                   VerticalAlignment="Center" Margin="15, 0, 15, 0"
+                   Text="УИН:"/>
+
+        <TextBox Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="3" x:Name="InputUIN"
+                   VerticalAlignment="Center" Margin="15, 0, 15, 0"/>
+
+        <TextBlock Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="4" x:Name="Status"
+                   VerticalAlignment="Center" Margin="15, 0, 15, 0"/>
+
+        <ProgressBar Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="4" x:Name="Progress"
+                     VerticalAlignment="Center" Margin="15, 0, 15, 0"
+                     Minimum="0" Maximum="3"/>
+
+        <Grid Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="3">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Grid.Column="0"
+                   VerticalAlignment="Center" Margin="15, 0, 0, 0"
+                   Text="Рубли:"/>
+
+            <TextBox Grid.Column="1" x:Name="InputAmountRub"
+                 VerticalAlignment="Center" Margin="15, 0 ,15, 0"/>
+
+            <TextBlock Grid.Column="2"
+                   VerticalAlignment="Center" Margin="15, 0, 0, 0"
+                   Text="Копейки:"/>
+
+            <TextBox Grid.Column="4" x:Name="InputAmountKop"
+                 VerticalAlignment="Center" Margin="15, 0 ,15, 0"/>
+        </Grid>
+        
+        <Button Grid.Row="5" Grid.Column="3" x:Name="Generate"
+                VerticalAlignment="Center" HorizontalAlignment="Center" Padding="7, 3, 7, 3"
+                Content="Создать квитанцию" Click="Generate_Click"/>
+    </Grid>
+</Window>

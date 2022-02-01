@@ -1,0 +1,25 @@
+C:\Users\Инженер-программист\source\repos\Receipt Generator\Receipt Generator\bin\Release\Receipt Generator.exe.config
+C:\Users\Инженер-программист\source\repos\Receipt Generator\Receipt Generator\bin\Release\Receipt Generator.exe.manifest
+C:\Users\Инженер-программист\source\repos\Receipt Generator\Receipt Generator\bin\Release\Receipt Generator.application
+C:\Users\Инженер-программист\source\repos\Receipt Generator\Receipt Generator\bin\Release\Receipt Generator.exe
+C:\Users\Инженер-программист\source\repos\Receipt Generator\Receipt Generator\bin\Release\BouncyCastle.Crypto.dll
+C:\Users\Инженер-программист\source\repos\Receipt Generator\Receipt Generator\bin\Release\itextsharp.dll
+C:\Users\Инженер-программист\source\repos\Receipt Generator\Receipt Generator\bin\Release\MessagingToolkit.QRCode.dll
+C:\Users\Инженер-программист\source\repos\Receipt Generator\Receipt Generator\bin\Release\itextsharp.xml
+C:\Users\Инженер-программист\source\repos\Receipt Generator\Receipt Generator\obj\Release\Receipt Generator.csproj.AssemblyReference.cache
+C:\Users\Инженер-программист\source\repos\Receipt Generator\Receipt Generator\obj\Release\Receipt Generator.csproj.SuggestedBindingRedirects.cache
+C:\Users\Инженер-программист\source\repos\Receipt Generator\Receipt Generator\obj\Release\Windows\MainWindow.g.cs
+C:\Users\Инженер-программист\source\repos\Receipt Generator\Receipt Generator\obj\Release\Windows\StartWindow.g.cs
+C:\Users\Инженер-программист\source\repos\Receipt Generator\Receipt Generator\obj\Release\App.g.cs
+C:\Users\Инженер-программист\source\repos\Receipt Generator\Receipt Generator\obj\Release\Receipt Generator_MarkupCompile.cache
+C:\Users\Инженер-программист\source\repos\Receipt Generator\Receipt Generator\obj\Release\Receipt Generator_MarkupCompile.lref
+C:\Users\Инженер-программист\source\repos\Receipt Generator\Receipt Generator\obj\Release\Windows\MainWindow.baml
+C:\Users\Инженер-программист\source\repos\Receipt Generator\Receipt Generator\obj\Release\Windows\StartWindow.baml
+C:\Users\Инженер-программист\source\repos\Receipt Generator\Receipt Generator\obj\Release\Receipt Generator.g.resources
+C:\Users\Инженер-программист\source\repos\Receipt Generator\Receipt Generator\obj\Release\Receipt_Generator.Properties.Resources.resources
+C:\Users\Инженер-программист\source\repos\Receipt Generator\Receipt Generator\obj\Release\Receipt Generator.csproj.GenerateResource.cache
+C:\Users\Инженер-программист\source\repos\Receipt Generator\Receipt Generator\obj\Release\Receipt Generator.csproj.CoreCompileInputs.cache
+C:\Users\Инженер-программист\source\repos\Receipt Generator\Receipt Generator\obj\Release\Receipt Generator.exe.manifest
+C:\Users\Инженер-программист\source\repos\Receipt Generator\Receipt Generator\obj\Release\Receipt Generator.application
+C:\Users\Инженер-программист\source\repos\Receipt Generator\Receipt Generator\obj\Release\Receipt Generator.csproj.CopyComplete
+C:\Users\Инженер-программист\source\repos\Receipt Generator\Receipt Generator\obj\Release\Receipt Generator.exe
